@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden
+}
+#header{
+    height: 700px;
+    background: url(../img/MacBook\ Pro\ 16_\ -\ 1.png) no-repeat center center/cover;
+}
+.navbar{
+    opacity: 0.9;
+}
+.nav-link:hover{
+    padding: 10px 20px;
+    border-bottom: 2px solid #fff;
+}
+.col{
+    height: 600px;
+}
+.Bank{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: #04c22d;
+}
+.row__pp{
+    font-size: 40px;
+}
+.solutions_img{
+    margin-left: -20px;
+}
+@media(max-width:768px){
+	#box__img .row{
+        margin-left: 20px ;
+    }
+}
+@media(max-width:375px){
+	#provide .boclok{
+        width: 360px;
+    }
+    #box__img .row{
+        margin-left: 10px;
+    }
+    .Enter{
+        height: 40px;
+        width:330px;
+    }
+}
+@media(max-width:320px){
+	#box__img .row{
+    margin-left: -10px;
+    }
+}
+
+footer{
+    height: 200px;
+}
+.icons i{
+    padding: 0 5px;
+}
